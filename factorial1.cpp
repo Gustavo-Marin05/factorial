@@ -19,5 +19,13 @@ public:
 };
 
 int main() {
+    int n;
+    cout << "Ingrese un número: ";
+    cin >> n;
+
+    factorial cal;
+    int result = cal.calculo_fac(n);
+
+    cout << "El factorial de " << n << " es: " << result << endl;
 	return 0;
 }
